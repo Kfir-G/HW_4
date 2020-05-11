@@ -1,6 +1,6 @@
 ﻿namespace HW_4
 {
-    partial class Main
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -131,7 +131,7 @@
             this.lstbxSickAnimalsChart.Size = new System.Drawing.Size(188, 324);
             this.lstbxSickAnimalsChart.TabIndex = 11;
             // 
-            // Main
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,7 +146,7 @@
             this.Controls.Add(this.lblHeadHealthChart);
             this.Controls.Add(this.lblHeadSickChart);
             this.Controls.Add(this.lblHead);
-            this.Name = "Main";
+            this.Name = "Form1";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.Text = "Main";

@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace HW_4
 {
-    public partial class Main : Form
+    public partial class Form1 : Form
     {
-        Service service;
-        public Main()
+        //Service service;
+        public Form1()
         {
             InitializeComponent();
             Animal a1 = new Animal ( 1,"hipo",'F',10, true, 0, false );
@@ -44,7 +44,7 @@ namespace HW_4
 
         private void btnAddSickAnimal_Click(object sender, EventArgs e)
         {
-            if(service.Sick_Animals.IsFull())
+            //if(service.Sick_Animals.IsFull())
             {
                 //Application.Run();
             }
